@@ -11,13 +11,13 @@ class CandidateSeeder extends Seeder
     /**
      * Run the database seeds.
      */
-    public function run(): void
-    {
-        DB::table('candidates')->insert([
-    ['name' => 'Candidate 1'],
-    ['name' => 'Candidate 2'],
-    ['name' => 'Candidate 3'],
-    ['name' => 'Candidate 4'],
-]);
-    }
+//     public function run(): void
+//     {
+//         DB::table('candidates')->insert([
+//     ['name' => 'Candidate 1'],
+//     ['name' => 'Candidate 2'],
+//     ['name' => 'Candidate 3'],
+//     ['name' => 'Candidate 4'],
+// ]);
+//     }
 }
